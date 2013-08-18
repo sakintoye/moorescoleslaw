@@ -4,7 +4,7 @@
 import sys        # to be able to exit the script
 
 def calculate_speed(year):
-    return 2 ** ((year - 2010) / 2) * 5.2
+    return 2 ** ((year - 2010) / 2.0) * 5.2
   
 year = raw_input("Pick a year: ") 
 
